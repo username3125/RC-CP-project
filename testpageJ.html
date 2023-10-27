@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나무 웹페이지</title>
+    <style>
+        /* 스타일 시트 내부에서 CSS 스타일을 정의합니다. */
+        body {
+            background-color: #B0E57C; /* Pastel Green (파스텔 그린) 배경색상 */
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        /* 첫 번째 헤더 스타일 */
+        header {
+            background-color: #FFFFFF; /* 흰색 배경색상 */
+            color: #000000; /* 텍스트 색상을 검정색으로 변경 */
+            padding: 10px;
+            display: flex;
+            justify-content: space-between; /* 메뉴를 양쪽 끝으로 정렬 */
+            align-items: center; /* 세로 가운데 정렬 */
+        }
+        header h1 {
+            flex: 1; /* 헤더 제목을 화면 너비에 맞게 확장 */
+            text-align: left; /* 제목을 왼쪽 정렬 */
+        }
+        header .menu {
+            display: flex; /* 메뉴 아이템을 가로로 나열 */
+        }
+        header .menu button {
+            background-color: #ae764e; /* 갈색 배경색상 */
+            color: #FFFFFF; /* 텍스트 색상을 흰색으로 변경 */
+            border: none;
+            padding: 5px 10px;
+            margin: 0 10px; /* 메뉴 아이템 간격 조절 */
+            cursor: pointer;
+        }
+
+        /* 두 번째 헤더: 검색창 스타일 (이전과 동일) */
+        .search-header {
+            background-color: #ae764e; /* 갈색 배경색상 (이전과 동일) */
+            color: #FFFFFF; /* 텍스트 색상 (이전과 동일) */
+            padding: 10px;
+        }
+        .search-input {
+            width: 100%;
+            max-width: 300px; /* 검색창 최대 너비 지정 (옵션) */
+            padding: 5px;
+            margin: 0 auto; /* 검색창을 가운데 정렬 (이전과 동일) */
+            border: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #ae764e; /* 갈색 푸터 배경색상 (이전과 동일) */
+            color: #FFFFFF; /* 푸터 텍스트 색상 (이전과 동일) */
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 첫 번째 헤더: 로그인, 회원가입, 글쓰기 메뉴 -->
+    <header>
+        <h1>나무 웹페이지</h1>
+        <div class="menu">
+            <button>로그인</button>
+            <button>회원가입</button>
+            <button>글쓰기</button>
+        </div>
+    </header>
+
+    <!-- 두 번째 헤더: 검색창 (이전과 동일) -->
+    <header class="search-header">
+        <input type="text" class="search-input" placeholder="검색어를 입력하세요">
+    </header>
+
+    <main>
+        <p>Hello, 나무 웹페이지!</p>
+    </main>
+    <footer>
+        &copy; 2023 나무 웹페이지
+    </footer>
+</body>
+</html>
