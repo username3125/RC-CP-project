@@ -1,5 +1,5 @@
 // Tags to search
-const tags = ["arknights", "blue archive", "Uma", "Prosekai"];
+const tags = ["A", "B", "C", "D"];
 
 // Function to perform the search
 function searchTags() {
