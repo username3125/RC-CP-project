@@ -1,0 +1,77 @@
+/* Add CSS styling for the header here */
+body {
+    margin: auto;
+}
+
+header {
+    background-color: #29354b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+.logo {
+    width: 50px; /* Adjust the image width as needed */
+    height: auto;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    padding: 5px 10px;
+    background-color: #afd5d9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* Style the search form */
+.search-form {
+    display: flex;
+    margin-top: 1%;
+    margin-left: auto; /* Move to the right side of the nav element */
+    margin-right: 25px;
+    width: 90%; /* 40% of the nav element */
+}
+
+.search-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+}
+
+.search-form button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #1e8449; /* Hover color */
+}
+
+.custom-section {
+    height: 10%;
+    width: auto;
+    margin: 1% 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border: 1px solid #808080; /* Outline */
+    padding: 10px; /* Add padding for content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Background color */
+}
+
+.custom-section a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
